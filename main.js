@@ -1,6 +1,6 @@
 var Discord = require('discord.js');
 var logger = require('winston');
-var auth = require('./auth.json');
+// var auth = require('./auth.json');
 var fs = require('fs');
 var ytdl = require('ytdl-core');
 require('dotenv').config();
