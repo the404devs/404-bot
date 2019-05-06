@@ -3,6 +3,7 @@ var logger = require('winston');
 var auth = require('./auth.json');
 var fs = require('fs');
 var ytdl = require('ytdl-core');
+require('dotenv').config();
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(new logger.transports.Console, {
@@ -76,5 +77,5 @@ bot.on('guildMemberAdd', member => {
   channel.send(`You're a fucking weeb, ${member}`);
 });
 
-bot.login('NTczNzE5NTgwNzgzMDE4MDEz.XM41xw.BDesOe63hRqlWoiUuh-0WKqDlRQ');
+bot.login(process.env.BOT_TOKEN);
 
