@@ -1,15 +1,17 @@
 {
-  "name": "404bot",
-  "version": "1.0.0",
-  "description": "automated asshole",
-  "main": "main.js",
-  "author": "the404.nl",
-  "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "discord.js": "^11.5.1",
-    "fs": "0.0.1-security",
-    "node-opus": "^0.3.3",
-    "winston": "^3.2.1",
-    "ytdl-core": "^0.29.7"
-  }
+    "name": "404bot",
+    "version": "1.0.0",
+    "description": "automated asshole",
+    "main": "main.js",
+    "author": "the404.nl",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "discord.js": "^11.4.2",
+        "dotenv": "^8.0.0",
+        "ffmpeg": "0.0.4",
+        "fs": "0.0.1-security",
+        "node-opus": "^0.3.3",
+        "winston": "^3.2.1",
+        "ytdl-core": "^0.29.7"
+    }
 }
