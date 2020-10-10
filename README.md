@@ -1,2 +1,2 @@
 # 404bot
-obsolete
+obsolete, do not use
